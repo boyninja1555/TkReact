@@ -31,6 +31,7 @@ jobs:
 
       - name: Build release distributions
         run: |
+          cd ..
           python setup.py sdist bdist_wheel
         working-directory: ./  # Ensure we are in the root directory where setup.py is located
 
