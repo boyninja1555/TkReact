@@ -20,3 +20,4 @@ def App(root: Tk):
     """, { "click_button": click_button, })
 
 create_root(App, "Hello, World!")
+
