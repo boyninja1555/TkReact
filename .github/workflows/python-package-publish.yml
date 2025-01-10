@@ -32,7 +32,7 @@ jobs:
       - name: Build release distributions
         run: |
           python /home/runner/work/TkReact/setup.py sdist bdist_wheel
-        working-directory: ./  # Ensure we are in the root directory where setup.py is located
+        working-directory: ./
 
       - name: Upload distributions
         uses: actions/upload-artifact@v4
