@@ -1,0 +1,3 @@
+FONT = "serif"
+BASE_FONT_SIZE = 16
+TEXT_ALIGN = "w"
