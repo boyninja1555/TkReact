@@ -31,7 +31,7 @@ jobs:
 
       - name: Build release distributions
         run: |
-          python /home/runner/work/TkReact/setup.py sdist bdist_wheel
+          python setup.py sdist bdist_wheel
         working-directory: ./
 
       - name: Upload distributions
