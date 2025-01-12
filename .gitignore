@@ -172,4 +172,5 @@ cython_debug/
 
 # Custom
 legacy
+releases
 *.zip
