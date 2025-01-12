@@ -1,5 +1,4 @@
-![Picture of Example Code](img/code-example.png | width=200)
-![Picture of Example Code Running](img/code-example-running.png | width=200)
+<img src="img/code-example.png" width="800" />
 
 # TkReact
 Broken as sh*t React port for Python (uses Tkinter for help). Don't expect TkReact to work well with commercial usage.
@@ -34,6 +33,8 @@ To run the application, simply run the Python script:
 ```shell
 python App.py
 ```
+
+<img src="img/code-example-running.png" width="500" />
 
 You can customize the `App.py` file to build your own simple UI.
 
