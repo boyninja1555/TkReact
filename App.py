@@ -1,4 +1,5 @@
 from tkreact import create_root, Label, Button, Container
+from tkreact.styles import BASE_FONT_SIZE
 from tkinter import Tk
 
 def App(root: Tk):
@@ -9,8 +10,8 @@ def App(root: Tk):
 
     return (
         Container(padx=100, pady=100)(
-            Label(text="This text is 1rem", font=("Arial", 1 * 16))(),
-            Label(text="This is 2rem text", font=("Arial", 2 * 16, "bold"))(),
+            Label(text="This text is 1rem", font=("Arial", 1 * BASE_FONT_SIZE))(),
+            Label(text="This is 2rem text", font=("Arial", 2 * BASE_FONT_SIZE, "bold"))(),
             Button(text="Click Me!", command=handle_click)(),
         ),
     )
