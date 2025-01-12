@@ -1,5 +1,5 @@
-![Picture of Example Code](img/code-example.png | width = 200)
-![Picture of Example Code Running](img/code-example-running.png | width = 200)
+![Picture of Example Code](img/code-example.png | width=200)
+![Picture of Example Code Running](img/code-example-running.png | width=200)
 
 # TkReact
 Broken as sh*t React port for Python (uses Tkinter for help). Don't expect TkReact to work well with commercial usage.
